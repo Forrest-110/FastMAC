@@ -14,6 +14,8 @@ pip install -r requirements.txt
 ```
 Finally, install [MAC(3D Registration with Maximal Cliques)](https://github.com/zhangxy0517/3D-Registration-with-Maximal-Cliques/tree/main) as instructed.
 
+**NOTE: As our PCR method is based on MAC, please install and run MAC first. Or If you only want the output sampled correspondences, then it's OK to only install our code.**
+
 ## Datasets
 The test datasets include KITTI, 3DMatch, 3DLoMatch. Please download them from [MAC(3D Registration with Maximal Cliques)](https://github.com/zhangxy0517/3D-Registration-with-Maximal-Cliques/tree/main).
 
