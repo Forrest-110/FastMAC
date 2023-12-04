@@ -1,0 +1,4 @@
+numpy
+scipy
+tqdm
+open3d==0.10.0
