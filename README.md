@@ -1,10 +1,11 @@
-# FastMAC: Stochastic Spectral Sampling of Correspondence Graph
+# FastMAC: Stochastic Spectral Sampling of Correspondence Graph (CVPR 2024)
 Source code of [FastMAC: Stochastic Spectral Sampling of Correspondence Graph]()
 
 ## Introduction
 3D correspondence, i.e., a pair of 3D points, is a fundamental concept in computer vision. A set of 3D correspondences, when equipped with compatibility edges, forms a correspondence graph. This graph is a critical component in several state-of-the-art 3D point cloud registration approaches, e.g., the one based on maximal cliques (MAC). However, its properties have not been well understood. So we present the first study that introduces graph signal processing into the domain of correspondence graph. We exploit the generalized degree signal on correspondence graph and pursue sampling strategies that preserve high-frequency components of this signal. To address time-consuming singular value decomposition in deterministic sampling, we resort to a stochastic approximate sampling strategy. As such, the core of our method is the stochastic spectral sampling of correspondence graph. As an application, we build a complete 3D registration algorithm termed as FastMAC, that reaches real-time speed while leading to little to none performance drop. Through extensive experiments, we validate that FastMAC works for both indoor and outdoor benchmarks. For example, FastMAC can accelerate MAC by 80 times while maintaining high registration success rate on KITTI. ![](figures/teaser.png)
 
 ## News
+- [2024/2/27] Paper is accepted by CVPR 2024.
 - [2023/12/4] Code is released.
 
 ## Installation
