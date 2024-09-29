@@ -1,0 +1,3 @@
+[submodule "pipeline_SLAM/thirdparty/GeoTransformer"]
+	path = pipeline_SLAM/thirdparty/GeoTransformer
+	url = https://github.com/qinzheng93/GeoTransformer.git
